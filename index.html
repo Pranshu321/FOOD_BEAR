@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Bear</title>
+    <!-- bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- CSS for reponsiveness and some other style  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/reponsive-style.css" /> -->
+  </head>
+  <body>
+    <!-- header code  -->
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- banner Section  -->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="promo">Food Bear 🐻</p>
+            <p class="slogan">Best Food Serving and with Sizzling Taste</p>
+            <!-- <a href="#"><img src="images/play.png" class="play-btn" alt="">Order Now</a> -->
+            <button type="button" class="btn btn-primary page">
+              Order Now
+            </button>
+            <button type="button" class="btn btn-danger page-1">
+              Contact Us
+            </button>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="images/food.jpg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <img src="images/wave1.png" alt="" class="food-boy" />
+    </section>
+
+    <section id="services">
+      <div class="container text-center">
+        <h1 class="title">How we Serve ?</h1>
+        <div class="row text-center">
+          <div class="col-md-4 services change">
+            <img
+              src="images/delivery.png"
+              style="height: 73px"
+              class="service-img"
+              alt=""
+              srcset=""
+            />
+            <h4>Fastest Delivery</h4>
+            <p>
+              We have partnered with local restaurants to offer you food
+              delivery services just like Swiggy and Zomato. For businesses,
+              Food Bear offers the fastest delivery service within 40mins.
+            </p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="images/retail.png" class="service-img" alt="" srcset="" />
+            <h4>Retail Partners</h4>
+            <p>
+              The following Food Bear Retail Partners and their subsidiaries
+              have made a commitment to reduce their corporate refrigerant
+              emissions and serve you delicious food.
+            </p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="images/cart.png" class="service-img" alt="" srcset="" />
+            <h4>Online Ordering</h4>
+            <p>
+              Order delivery or takeout from national chains and local
+              favorites! it's easy to find food you crave, and order online or
+              through the Food Bear App.
+            </p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-success">Order Now</button>
+      </div>
+    </section>
+
+    <section id="about-us">
+      <div class="container">
+        <h1 class="title text-center">Why Choose ?</h1>
+        <div class="row">
+          <div class="col-md-6 about-us">
+            <p class="about-title">Why we're awesome</p>
+            <ul>
+              <li>We use latest technology for accepting orders.</li>
+              <li>Clear Problem Solving</li>
+              <li>Food Quality Assured</li>
+              <li>Best in class portfolio of food</li>
+              <li>Outsource Delivery Drivers</li>
+              <li>A Standardized Delivery Procedure</li>
+              <!-- <li>Serve the best</li> -->
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img src="images/network.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testi">
+      <div class="container">
+        <h1 class="title text-center">Our Team</h1>
+        <div class="row offset-2">
+          <div class="col-md-5 testi">
+            <p>
+              Not everything we decide in an average quarter or fiscal year can,
+              or should, get put up to a vote or telegraphed before it's a "done
+              deal." But if we want to start a new tradition with the
+              simultaneous goals of connecting with employees and we are
+              creating transparency
+            </p>
+            <img src="images/user1.jpg" alt="" />
+            <p class="team">
+              <b>Martha Seimens</b> <br />
+              Co-Founder
+            </p>
+          </div>
+          <div class="col-md-5 testi">
+            <p>
+              “To overcome the tendency to over-talk and appear anxious or not
+              confident, it is critical to have the 'three-minute version' of
+              your message prepared in advance,” says Elizabeth Freedman,
+              executive coach at Bates Communications, a global consulting firm.
+              “Audiences at all levels are overwhelmed with information, so the
+              ability to keep things simple, clear, and short has a far greater
+              impact.”
+            </p>
+            <img src="images/user2.jpg" alt="" />
+            <p class="team"><b>Alex Stark</b> <br />Managing Director</p>
+          </div>
+          <div class="col-md-5 testi">
+            <p>
+              Most who work with or around me know I have an intolerance for
+              inappropriate comments, attitudes, behaviors and lack of integrity
+              towards others. This include restaurant personnel, etc. I say that
+              to say its usually hidden when I'm present, however in the few
+              times I've witnessed such horrific behavior first hand
+            </p>
+            <img src="images/user3.jpg" alt="" />
+            <p class="team"><b>Xi Zuang</b> <br />CEO</p>
+          </div>
+          <div class="col-md-5 testi">
+            <p>
+              Most people want to sound impressive during their standup. They
+              want to say, “Look at all this stuff I got done yesterday! Look at
+              how awesome I am.” Resist that temptation, and instead focus on
+              how you can accelerate the work ahead.
+            </p>
+            <img src="images/user4.jpg" alt="" />
+            <p class="team"><b>Ritchy Mathew</b> <br />Tech Lead</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="social">
+      <div class="container text-center">
+        <p class="title">Reach Us On</p>
+        <div class="icons">
+          <a href="#"><img src="images/facebook-icon.png" alt="" /></a>
+          <a href="#"><img src="images/whatsapp-icon.png" alt="" /></a>
+          <a href="#"><img src="images/linkedin-icon.png" alt="" /></a>
+          <a href="#"><img src="./images/snapchat-icon.png" alt="" /></a>
+          <a href="#"><img src="./images/instagram-icon.png" alt="" /></a>
+          <a href="#"><img src="./images/twitter-icon.png" alt="" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- fotter  -->
+    <section id="footer">
+      <img src="images/wave2.png" class="foot-img" alt="" />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 foot-box">
+            <img src="./images/logo.png" alt="" />
+            <p>
+              Food Bear is one of the most comprehensive and user-friendly apps
+              where people can search for nearby restaurants and cafes, order
+              food online, and get it delivered at their doorstep in no time.
+              Moreover, you can also get accurate information about restaurants
+              as it provides menus, reviews, and ratings. Based on that, users
+              can place orders and enjoy lip-smacking food at their homes.
+            </p>
+          </div>
+          <div class="col-md-4 foot-box">
+            <p><b>Contact Us</b></p>
+            <p>Food Bear Private Limited</p>
+            <p><i class="fa fa-map-marker-alt"></i> Banglore , Karnataka</p>
+            <p><i class="fa fa-phone"></i> +1 0129874286</p>
+            <p><i class="fa fa-envelope"></i> FoodBear@gmail.com</p>
+          </div>
+          <div class="col-md-4 foot-box">
+            <p><b>Subscribe Newsletter</b></p>
+            <input type="email" class="form-control" placeholder="Your Email" />
+            <button type="button" class="btn btn-success">Subscribe</button>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">&copy; Website Right Reserved by FOOD BEAR</p>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"
+  ></script>
+  <!-- <script src="js/main.js"></script> -->
+</html>
