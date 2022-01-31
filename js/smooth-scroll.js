@@ -17,12 +17,12 @@
 		topOnEmptyHash: true,
 
 		// Speed & Duration
-		speed:10,
+		speed:1000,
 		speedAsDuration: false,
 		durationMax: null,
 		durationMin: null,
 		clip: true,
-		offset: 100,
+		offset:0,
 
 		// Easing
 		easing: 'easeInOutCubic',
