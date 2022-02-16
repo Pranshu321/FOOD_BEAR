@@ -1,6 +1,7 @@
 [![FOOD BEAR](https://img.shields.io/badge/Food%20Bear-Lick%20the%20heaven-orange)](https://pranshu321.github.io/FOOD_BEAR/)
 
 
+![image](https://user-images.githubusercontent.com/86917304/154319796-6eb8786d-55be-4d03-b7da-fa5c2c3d1904.png)
 # Food Bear
 
 This is the project in which try to use the bootstrap to design the webiste , Food Bear is the website which main idea is to deliver best food with best service in its locality.
